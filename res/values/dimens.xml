@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing">2dp</dimen>
+    <dimen name="Grid_View_Height">145dp</dimen>
+    <dimen name="Grid_View_Width">100dp</dimen>
+    <dimen name="Vertical_View_Width">4dp</dimen>
+    <dimen name="Vertical_View_Height">145dp</dimen>
+    <dimen name="Horizental_View_Width">145dp</dimen>
+    <dimen name="Horizental_View_Height">4dp</dimen>
+</resources>

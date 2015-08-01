@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="0dp"
+    android:paddingBottom="3dp"
+    android:background="@drawable/back1"
+    
+    android:orientation="vertical" >
+
+<View
+        android:id="@+id/horizentalView1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Horizental_View_Height"
+        android:layout_marginTop="5dp"      
+        android:layout_marginLeft="2dp"  
+        android:background="@drawable/back1" />
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+
+   <View
+        android:id="@+id/verticalViewLeftPad1"
+        android:layout_width="@dimen/Vertical_View_Width"
+        android:layout_height="@dimen/Vertical_View_Height"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/back1" />
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="@dimen/Grid_View_Width"
+        android:layout_height="@dimen/Grid_View_Height"
+        android:numColumns="3" >
+    </GridView>
+    <View
+        android:id="@+id/verticalView1"
+        android:layout_width="@dimen/Vertical_View_Width"
+        android:layout_height="@dimen/Vertical_View_Height"
+        android:background="@drawable/back1" />
+
+    <GridView
+        android:id="@+id/gridView2"
+        android:layout_width="@dimen/Grid_View_Width"
+        android:layout_height="@dimen/Grid_View_Height"
+        android:numColumns="3" >
+    </GridView>
+    <View
+        android:id="@+id/verticalView2"
+        android:layout_width="@dimen/Vertical_View_Width"
+        android:layout_height="@dimen/Vertical_View_Height"
+        android:background="@drawable/back1" />
+
+    <GridView
+        android:id="@+id/gridView3"
+        android:layout_width="@dimen/Grid_View_Width"
+        android:layout_height="@dimen/Grid_View_Height"
+        android:numColumns="3" >
+    </GridView>
+<View
+        android:id="@+id/verticalView3"
+        android:layout_width="@dimen/Vertical_View_Width"
+        android:layout_height="@dimen/Vertical_View_Height"
+        android:background="@drawable/back1" />
+</LinearLayout>
+
+
+
+<View
+        android:id="@+id/horizentalView2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Horizental_View_Height"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/back1" />
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+<View
+        android:id="@+id/verticalViewLeftPad2"
+        android:layout_width="@dimen/Vertical_View_Width"
+        android:layout_height="@dimen/Vertical_View_Height"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/back1" />
+    <GridView
+        android:id="@+id/gridView4"
+        android:layout_width="@dimen/Grid_View_Width"
+        android:layout_height="@dimen/Grid_View_Height"
+        android:numColumns="3" >
+    </GridView>
+    <View
+        android:id="@+id/verticalView4"
+        android:layout_width="@dimen/Vertical_View_Width"
+        android:layout_height="@dimen/Vertical_View_Height"
+        android:background="@drawable/back1" />
+
+    <GridView
+        android:id="@+id/gridView5"
+        android:layout_width="@dimen/Grid_View_Width"
+        android:layout_height="@dimen/Grid_View_Height"
+        android:numColumns="3" >
+    </GridView>
+    <View
+        android:id="@+id/verticalView5"
+        android:layout_width="@dimen/Vertical_View_Width"
+        android:layout_height="@dimen/Vertical_View_Height"
+        android:background="@drawable/back1" />
+
+    <GridView
+        android:id="@+id/gridView6"
+        android:layout_width="@dimen/Grid_View_Width"
+        android:layout_height="@dimen/Grid_View_Height"
+        android:numColumns="3" >
+    </GridView>
+<View
+        android:id="@+id/verticalView6"
+        android:layout_width="@dimen/Vertical_View_Width"
+        android:layout_height="@dimen/Vertical_View_Height"
+        android:background="@drawable/back1" />
+</LinearLayout>
+
+
+<View
+        android:id="@+id/horizentalView3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Horizental_View_Height"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/back1" />
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+<View
+        android:id="@+id/verticalViewLeftPad3"
+        android:layout_width="@dimen/Vertical_View_Width"
+        android:layout_height="@dimen/Vertical_View_Height"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/back1" />
+    <GridView
+        android:id="@+id/gridView7"
+        android:layout_width="@dimen/Grid_View_Width"
+        android:layout_height="@dimen/Grid_View_Height"
+        android:numColumns="3" >
+    </GridView>
+    <View
+        android:id="@+id/verticalView7"
+        android:layout_width="@dimen/Vertical_View_Width"
+        android:layout_height="@dimen/Vertical_View_Height"
+        android:background="@drawable/back1" />
+
+    <GridView
+        android:id="@+id/gridView8"
+        android:layout_width="@dimen/Grid_View_Width"
+        android:layout_height="@dimen/Grid_View_Height"
+        android:numColumns="3" >
+    </GridView>
+    <View
+        android:id="@+id/verticalView8"
+        android:layout_width="@dimen/Vertical_View_Width"
+        android:layout_height="@dimen/Vertical_View_Height"
+        android:background="@drawable/back1" />
+
+    <GridView
+        android:id="@+id/gridView9"
+        android:layout_width="@dimen/Grid_View_Width"
+        android:layout_height="@dimen/Grid_View_Height"
+        android:numColumns="3" >
+    </GridView>
+<View
+        android:id="@+id/verticalView9"
+        android:layout_width="@dimen/Vertical_View_Width"
+        android:layout_height="@dimen/Vertical_View_Height"
+        android:background="@drawable/back1" />
+</LinearLayout>
+
+<View
+        android:id="@+id/horizentalView4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Horizental_View_Height"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/back1" />
+
+ </LinearLayout>
+ 
+
+

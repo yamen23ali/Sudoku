@@ -1,0 +1,93 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sudoku"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/title_activity_main" android:debuggable="false">
+        
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" 
+            android:theme="@style/CustomDialogTheme"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".AboutBox"
+            android:label="About Sudoku Game :" 
+            android:theme="@android:style/Theme.Wallpaper"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".Levels"
+            android:theme="@style/CustomDialogTheme2"
+            android:label=""
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        
+         <activity 
+            android:name=".Board"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        
+         <activity 
+            android:name=".ChooseNumber"
+            android:theme="@style/CustomDialogTheme1"
+            android:label=""
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".MessageBox"
+            android:theme="@android:style/Theme.Dialog"
+            android:label=""
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".BackGrounds"
+            android:theme="@android:style/Theme.Dialog"
+            android:label=""
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".Save_Board"
+            android:theme="@android:style/Theme.Dialog"
+            android:label=""
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".New_User"
+            android:theme="@style/CustomDialogTheme1"
+            android:label=""
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".Load_Board"
+            android:theme="@style/CustomDialogTheme1"
+            android:label=""
+            android:screenOrientation="portrait">
+        </activity>
+        
+        
+    </application>
+
+</manifest>

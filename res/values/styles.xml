@@ -1,0 +1,35 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="myStyle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">5sp</item>
+    </style>
+    
+    
+        
+<style name="CustomDialogTheme" parent="@android:style/Theme.Wallpaper">
+    <item name="android:windowBackground">@drawable/mainwallpaper2</item>
+</style>
+
+<style name="CustomDialogTheme1" parent="@android:style/Theme.Dialog">
+    <item name="android:windowBackground">@drawable/globalwall2</item>
+    <item name="android:background">@color/transparent</item>
+</style>
+
+<style name="CustomDialogTheme2" parent="@android:style/Theme.Dialog">
+    <item name="android:windowBackground">@drawable/globalwall2</item>
+    
+</style>
+
+<style name="UnChoosed" parent="@android:style/Widget.TextView">
+    <item name="android:paddingLeft">4px</item>
+    <item name="android:paddingBottom">4px</item>
+    <item name="android:textColor">@color/OrangeRed</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:shadowColor">@color/blue</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">10.5</item>
+  </style>
+
+</resources>
